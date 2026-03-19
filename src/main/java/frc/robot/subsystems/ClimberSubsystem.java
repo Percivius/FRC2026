@@ -17,11 +17,11 @@ public class ClimberSubsystem extends SubsystemBase {
 
     // Methods go here
     public ClimberSubsystem() {
-        elevatorMotor.setPosition(Angle.ofBaseUnits(0, Degrees));
+        elevatorMotor.setPosition(Angle.ofBaseUnits(0, Degrees)); // Setting the position of the climber
     }
 
     public void startGoingUp() {
-        elevatorMotor.set(0.4);
+        elevatorMotor.set(0.4); 
     }
 
     public void stop() {
